@@ -1,0 +1,13 @@
+*{
+box-sizing: content-box;
+
+}
+
+header{
+display: flex;
+padding: 10%;
+}
+
+img{
+width: 10%;
+}

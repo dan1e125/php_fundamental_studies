@@ -1,0 +1,20 @@
+{
+    "name": "frankenstein/psr4-composer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dan1e125",
+            "email": "danielordonezarango@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "App/logic/createcats.php"
+        ],
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "require": {}
+}

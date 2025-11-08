@@ -1,0 +1,13 @@
+{
+    "name": "daniel/text",
+    "autoload": {
+        "psr-4": {
+            "text\\": "composer/"
+        },
+        "files":[
+            "composer/help.php"
+        ]
+    }
+}
+
+
