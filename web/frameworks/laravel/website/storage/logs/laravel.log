@@ -1,0 +1,243 @@
+[2025-11-24 20:46:34] local.ERROR: Command "make:models" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:config
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:livewire
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view
+    make:volt {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:models\" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:config
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:livewire
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view
+    make:volt at /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Application.php:740)
+[stacktrace]
+#0 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Application.php(298): Symfony\\Component\\Console\\Application->find()
+#1 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Application.php(195): Symfony\\Component\\Console\\Application->doRun()
+#2 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run()
+#3 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle()
+#4 /var/www/html/programming/php/web/frameworks/laravel/website/artisan(16): Illuminate\\Foundation\\Application->handleCommand()
+#5 {main}
+"} 
+[2025-11-24 22:21:52] local.ERROR: Undefined property: Illuminate\Database\Schema\Blueprint::$string {"exception":"[object] (ErrorException(code: 0): Undefined property: Illuminate\\Database\\Schema\\Blueprint::$string at /var/www/html/programming/php/web/frameworks/laravel/website/database/migrations/2025_11_24_204648_create_categories_table.php:16)
+[stacktrace]
+#0 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /var/www/html/programming/php/web/frameworks/laravel/website/database/migrations/2025_11_24_204648_create_categories_table.php(16): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->{closure:Illuminate\\Foundation\\Bootstrap\\HandleExceptions::forwardsTo():257}()
+#2 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(475): Illuminate\\Database\\Migrations\\Migration@anonymous->{closure:Illuminate\\Database\\Migrations\\Migration@anonymous()
+#3 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Support/helpers.php(390): Illuminate\\Database\\Schema\\Builder->{closure:Illuminate\\Database\\Schema\\Builder::create():472}()
+#4 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(472): tap()
+#5 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(363): Illuminate\\Database\\Schema\\Builder->create()
+#6 /var/www/html/programming/php/web/frameworks/laravel/website/database/migrations/2025_11_24_204648_create_categories_table.php(14): Illuminate\\Support\\Facades\\Facade::__callStatic()
+#7 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(514): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(439): Illuminate\\Database\\Migrations\\Migrator->runMethod()
+#9 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(448): Illuminate\\Database\\Migrations\\Migrator->{closure:Illuminate\\Database\\Migrations\\Migrator::runMigration():435}()
+#10 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(250): Illuminate\\Database\\Migrations\\Migrator->runMigration()
+#11 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Console/View/Components/Task.php(41): Illuminate\\Database\\Migrations\\Migrator->{closure:Illuminate\\Database\\Migrations\\Migrator::runUp():250}()
+#12 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(809): Illuminate\\Console\\View\\Components\\Task->render()
+#13 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(250): Illuminate\\Database\\Migrations\\Migrator->write()
+#14 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(210): Illuminate\\Database\\Migrations\\Migrator->runUp()
+#15 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(137): Illuminate\\Database\\Migrations\\Migrator->runPending()
+#16 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(116): Illuminate\\Database\\Migrations\\Migrator->run()
+#17 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(666): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->{closure:Illuminate\\Database\\Console\\Migrations\\MigrateCommand::runMigrations():109}()
+#18 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(109): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#19 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(88): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
+#20 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#21 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#22 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate\\Container\\Util::unwrapIfClosure()
+#23 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#24 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/Container.php(836): Illuminate\\Container\\BoundMethod::call()
+#25 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate\\Container\\Container->call()
+#26 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Command/Command.php(318): Illuminate\\Console\\Command->execute()
+#27 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#28 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Application.php(1073): Illuminate\\Console\\Command->run()
+#29 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand()
+#30 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Application.php(195): Symfony\\Component\\Console\\Application->doRun()
+#31 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run()
+#32 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle()
+#33 /var/www/html/programming/php/web/frameworks/laravel/website/artisan(16): Illuminate\\Foundation\\Application->handleCommand()
+#34 {main}
+"} 
+[2025-11-24 22:24:19] local.ERROR: Undefined property: Illuminate\Database\Schema\Blueprint::$string {"exception":"[object] (ErrorException(code: 0): Undefined property: Illuminate\\Database\\Schema\\Blueprint::$string at /var/www/html/programming/php/web/frameworks/laravel/website/database/migrations/2025_11_24_204648_create_categories_table.php:17)
+[stacktrace]
+#0 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /var/www/html/programming/php/web/frameworks/laravel/website/database/migrations/2025_11_24_204648_create_categories_table.php(17): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->{closure:Illuminate\\Foundation\\Bootstrap\\HandleExceptions::forwardsTo():257}()
+#2 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(475): Illuminate\\Database\\Migrations\\Migration@anonymous->{closure:Illuminate\\Database\\Migrations\\Migration@anonymous()
+#3 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Support/helpers.php(390): Illuminate\\Database\\Schema\\Builder->{closure:Illuminate\\Database\\Schema\\Builder::create():472}()
+#4 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(472): tap()
+#5 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(363): Illuminate\\Database\\Schema\\Builder->create()
+#6 /var/www/html/programming/php/web/frameworks/laravel/website/database/migrations/2025_11_24_204648_create_categories_table.php(14): Illuminate\\Support\\Facades\\Facade::__callStatic()
+#7 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(514): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(439): Illuminate\\Database\\Migrations\\Migrator->runMethod()
+#9 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(448): Illuminate\\Database\\Migrations\\Migrator->{closure:Illuminate\\Database\\Migrations\\Migrator::runMigration():435}()
+#10 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(250): Illuminate\\Database\\Migrations\\Migrator->runMigration()
+#11 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Console/View/Components/Task.php(41): Illuminate\\Database\\Migrations\\Migrator->{closure:Illuminate\\Database\\Migrations\\Migrator::runUp():250}()
+#12 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(809): Illuminate\\Console\\View\\Components\\Task->render()
+#13 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(250): Illuminate\\Database\\Migrations\\Migrator->write()
+#14 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(210): Illuminate\\Database\\Migrations\\Migrator->runUp()
+#15 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(137): Illuminate\\Database\\Migrations\\Migrator->runPending()
+#16 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(116): Illuminate\\Database\\Migrations\\Migrator->run()
+#17 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(666): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->{closure:Illuminate\\Database\\Console\\Migrations\\MigrateCommand::runMigrations():109}()
+#18 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(109): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#19 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(88): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
+#20 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#21 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#22 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate\\Container\\Util::unwrapIfClosure()
+#23 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#24 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/Container.php(836): Illuminate\\Container\\BoundMethod::call()
+#25 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate\\Container\\Container->call()
+#26 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Command/Command.php(318): Illuminate\\Console\\Command->execute()
+#27 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#28 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Application.php(1073): Illuminate\\Console\\Command->run()
+#29 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand()
+#30 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Application.php(195): Symfony\\Component\\Console\\Application->doRun()
+#31 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run()
+#32 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle()
+#33 /var/www/html/programming/php/web/frameworks/laravel/website/artisan(16): Illuminate\\Foundation\\Application->handleCommand()
+#34 {main}
+"} 
+[2025-11-24 22:25:46] local.ERROR: Undefined property: Illuminate\Database\Schema\Blueprint::$foreignId {"exception":"[object] (ErrorException(code: 0): Undefined property: Illuminate\\Database\\Schema\\Blueprint::$foreignId at /var/www/html/programming/php/web/frameworks/laravel/website/database/migrations/2025_11_24_204805_create_questions_table.php:17)
+[stacktrace]
+#0 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /var/www/html/programming/php/web/frameworks/laravel/website/database/migrations/2025_11_24_204805_create_questions_table.php(17): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->{closure:Illuminate\\Foundation\\Bootstrap\\HandleExceptions::forwardsTo():257}()
+#2 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(475): Illuminate\\Database\\Migrations\\Migration@anonymous->{closure:Illuminate\\Database\\Migrations\\Migration@anonymous()
+#3 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Support/helpers.php(390): Illuminate\\Database\\Schema\\Builder->{closure:Illuminate\\Database\\Schema\\Builder::create():472}()
+#4 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(472): tap()
+#5 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(363): Illuminate\\Database\\Schema\\Builder->create()
+#6 /var/www/html/programming/php/web/frameworks/laravel/website/database/migrations/2025_11_24_204805_create_questions_table.php(14): Illuminate\\Support\\Facades\\Facade::__callStatic()
+#7 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(514): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(439): Illuminate\\Database\\Migrations\\Migrator->runMethod()
+#9 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(448): Illuminate\\Database\\Migrations\\Migrator->{closure:Illuminate\\Database\\Migrations\\Migrator::runMigration():435}()
+#10 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(250): Illuminate\\Database\\Migrations\\Migrator->runMigration()
+#11 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Console/View/Components/Task.php(41): Illuminate\\Database\\Migrations\\Migrator->{closure:Illuminate\\Database\\Migrations\\Migrator::runUp():250}()
+#12 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(809): Illuminate\\Console\\View\\Components\\Task->render()
+#13 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(250): Illuminate\\Database\\Migrations\\Migrator->write()
+#14 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(210): Illuminate\\Database\\Migrations\\Migrator->runUp()
+#15 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(137): Illuminate\\Database\\Migrations\\Migrator->runPending()
+#16 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(116): Illuminate\\Database\\Migrations\\Migrator->run()
+#17 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(666): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->{closure:Illuminate\\Database\\Console\\Migrations\\MigrateCommand::runMigrations():109}()
+#18 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(109): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#19 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(88): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
+#20 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#21 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#22 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate\\Container\\Util::unwrapIfClosure()
+#23 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#24 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/Container.php(836): Illuminate\\Container\\BoundMethod::call()
+#25 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate\\Container\\Container->call()
+#26 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Command/Command.php(318): Illuminate\\Console\\Command->execute()
+#27 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#28 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Application.php(1073): Illuminate\\Console\\Command->run()
+#29 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand()
+#30 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Application.php(195): Symfony\\Component\\Console\\Application->doRun()
+#31 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run()
+#32 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle()
+#33 /var/www/html/programming/php/web/frameworks/laravel/website/artisan(16): Illuminate\\Foundation\\Application->handleCommand()
+#34 {main}
+"} 
+[2025-11-24 22:30:02] local.ERROR: Undefined property: Illuminate\Database\Schema\Blueprint::$foreignId {"exception":"[object] (ErrorException(code: 0): Undefined property: Illuminate\\Database\\Schema\\Blueprint::$foreignId at /var/www/html/programming/php/web/frameworks/laravel/website/database/migrations/2025_11_24_204805_create_questions_table.php:17)
+[stacktrace]
+#0 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /var/www/html/programming/php/web/frameworks/laravel/website/database/migrations/2025_11_24_204805_create_questions_table.php(17): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->{closure:Illuminate\\Foundation\\Bootstrap\\HandleExceptions::forwardsTo():257}()
+#2 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(475): Illuminate\\Database\\Migrations\\Migration@anonymous->{closure:Illuminate\\Database\\Migrations\\Migration@anonymous()
+#3 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Support/helpers.php(390): Illuminate\\Database\\Schema\\Builder->{closure:Illuminate\\Database\\Schema\\Builder::create():472}()
+#4 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(472): tap()
+#5 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(363): Illuminate\\Database\\Schema\\Builder->create()
+#6 /var/www/html/programming/php/web/frameworks/laravel/website/database/migrations/2025_11_24_204805_create_questions_table.php(14): Illuminate\\Support\\Facades\\Facade::__callStatic()
+#7 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(514): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(439): Illuminate\\Database\\Migrations\\Migrator->runMethod()
+#9 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(448): Illuminate\\Database\\Migrations\\Migrator->{closure:Illuminate\\Database\\Migrations\\Migrator::runMigration():435}()
+#10 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(250): Illuminate\\Database\\Migrations\\Migrator->runMigration()
+#11 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Console/View/Components/Task.php(41): Illuminate\\Database\\Migrations\\Migrator->{closure:Illuminate\\Database\\Migrations\\Migrator::runUp():250}()
+#12 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(809): Illuminate\\Console\\View\\Components\\Task->render()
+#13 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(250): Illuminate\\Database\\Migrations\\Migrator->write()
+#14 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(210): Illuminate\\Database\\Migrations\\Migrator->runUp()
+#15 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(137): Illuminate\\Database\\Migrations\\Migrator->runPending()
+#16 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(116): Illuminate\\Database\\Migrations\\Migrator->run()
+#17 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(666): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->{closure:Illuminate\\Database\\Console\\Migrations\\MigrateCommand::runMigrations():109}()
+#18 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(109): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#19 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(88): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
+#20 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#21 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#22 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate\\Container\\Util::unwrapIfClosure()
+#23 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#24 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Container/Container.php(836): Illuminate\\Container\\BoundMethod::call()
+#25 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate\\Container\\Container->call()
+#26 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Command/Command.php(318): Illuminate\\Console\\Command->execute()
+#27 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#28 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Application.php(1073): Illuminate\\Console\\Command->run()
+#29 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand()
+#30 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/symfony/console/Application.php(195): Symfony\\Component\\Console\\Application->doRun()
+#31 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run()
+#32 /var/www/html/programming/php/web/frameworks/laravel/website/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle()
+#33 /var/www/html/programming/php/web/frameworks/laravel/website/artisan(16): Illuminate\\Foundation\\Application->handleCommand()
+#34 {main}
+"} 
