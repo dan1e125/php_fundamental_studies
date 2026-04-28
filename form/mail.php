@@ -12,8 +12,8 @@ $phpmailer->Host = 'smtp.gmail.com';
 $phpmailer->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
 $phpmailer->SMTPAuth = true;
 $phpmailer->Port = 465;
-$phpmailer->Username = 'danielordonezarango@gmail.com';
-$phpmailer->Password = 'gbavfqpxkbzsnomr';
+$phpmailer->Username = '';
+$phpmailer->Password = '';
 
 
 //setting destinations
